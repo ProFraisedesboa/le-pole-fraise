@@ -1,1 +1,91 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(#0b1d3a, #08101f);
+    color: white;
+    text-align: center;
+}
+
+header {
+    padding: 30px 10px;
+}
+
+.logo-main {
+    max-width: 420px;
+}
+
+.logo-small {
+    width: 120px;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #cce6ff;
+}
+
+.ip-box {
+    background: #b51c2c;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 500px;
+}
+
+.ip-box input {
+    padding: 10px;
+    width: 260px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.ip-box button {
+    padding: 10px 15px;
+    margin-left: 10px;
+    background: gold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.status, .quests, .trailer {
+    margin: 40px 20px;
+}
+
+.quest {
+    background: rgba(255,255,255,0.1);
+    padding: 15px;
+    border-radius: 12px;
+    max-width: 600px;
+    margin: 15px auto;
+}
+
+.main-quest {
+    background: linear-gradient(135deg, #ff4b4b, #ffcc70);
+    color: black;
+    font-weight: bold;
+}
+
+.trailer iframe {
+    width: 90%;
+    max-width: 560px;
+    height: 315px;
+    border-radius: 12px;
+}
+
+.links a {
+    display: inline-block;
+    margin: 20px;
+    padding: 15px 25px;
+    background: #2ecc71;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 15px;
+    background: #050a18;
+}
 
